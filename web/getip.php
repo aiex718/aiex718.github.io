@@ -9,4 +9,5 @@ if(!empty($_SERVER['HTTP_CLIENT_IP'])){
    $myip= $_SERVER['REMOTE_ADDR'];
 }
 echo $myip;
+
 ?>
